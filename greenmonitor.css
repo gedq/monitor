@@ -1,6 +1,12 @@
+* {
+	color: red;
+}
+
 #greenmonitor {
-  color: #2a2;
+  color: #282;
   background-color: #111;
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  font-weight: bold;
+  font-size: 16pt;
+  text-shadow: 0 0 4px rgba(128,255,128,1) , 0 0 10px rgba(128,255,128,1) , 0 0 15px rgba(128,255,128,1) , 0 0 20px #ff00de , 0 0 20px #ff00de , 0 0 20px #ff00de , 0 0 20px #ff00de ;
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }

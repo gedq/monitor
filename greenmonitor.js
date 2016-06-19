@@ -5,3 +5,4 @@ var addTextToMonitor = function(text, options) {
     character = text.charAt(i);
     monitor.innerHTML += character;
   }
+}
