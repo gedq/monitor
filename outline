@@ -1,0 +1,28 @@
+The end result will be a <div> that appears on the screen like a old school green screen display.
+
+It will have green text on a very dark grey background.
+
+It will be able to take user input and display it.
+
+It will be able to send user input back to the server
+
+It will be able to output content to the <div> under program control.
+
+
+1.  Appearance.
+this from enjoy.css:
+text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  
+not sure transition is needed.
+
+background colour is #111 foreground is whatever green text displays was.
+
+I think I'm going to keep things simple and use a textarea.  Making it a form control, solving two issues in one step.
+
+
+The function to add text to the display is javascript.  It will be fed a string and will display it on the screen.
+
+I want a flashing line cursor.
+
+I want the ability to delete text and retype it.  This is best achieved by having control tokens in the string.
